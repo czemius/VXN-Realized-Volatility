@@ -1,8 +1,8 @@
-\# Data Sources
+# Data Sources
 
 
 
-\## VXN
+## VXN
 
 
 
@@ -14,7 +14,7 @@ Daily VXN observations are sourced from the Federal Reserve Bank of St. Louis (F
 
 
 
-\## NQ
+## NQ
 
 
 
@@ -30,15 +30,15 @@ The datasets are not included in this repository. Download the source data and p
 
 
 
-\## Data Notes
+## Data Notes
 
 
 
-\- The original NQ 1-minute Parquet files use UTC timestamps.
+- The original NQ 1-minute Parquet files use UTC timestamps.
 
-\- Timestamps are converted to `America/New\_York` when assigning observations to CME trading sessions.
+- Timestamps are converted to `America/New\_York` when assigning observations to CME trading sessions.
 
-\- The 2025 NQ dataset is partial and currently ends on 2025-07-25.
+- The 2025 NQ dataset is partial and currently ends on 2025-07-25.
 
-\- VXN is daily data, while NQ is 1-minute data.
+- VXN is daily data, while NQ is 1-minute data.
 
