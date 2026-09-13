@@ -41,9 +41,11 @@ The relationship between VXN and future realized volatility was positive across 
 
 The 30-day regression is:
 
-`RV_30D = 2.90 + 0.74 × VXN`
+$$
+RV_{30D} = 2.90 + 0.74 \times VXN
+$$
 
-with an `R²` of approximately `0.35`.
+with an $R^2$ of approximately $0.35$.
 
 This indicates that higher VXN levels were associated with higher subsequent NQ realized volatility, while VXN also tended to overestimate the magnitude of realized volatility on average.
 
@@ -59,7 +61,7 @@ $$
 RV^2_t = \sum_{i=1}^{n} r_{t,i}^2
 $$
 
-where \(r_{t,i}\) is the 1-minute log return.
+where $r_{t,i}$ is the 1-minute log return.
 
 Daily realized volatility is:
 
@@ -67,7 +69,7 @@ $$
 RV_t = \sqrt{RV^2_t}
 $$
 
-For a future horizon of \(H\) trading days, realized volatility is calculated from the cumulative intraday variance over the following \(H\) sessions and annualized:
+For a future horizon of $H$ trading days, realized volatility is calculated from the cumulative intraday variance over the following $H$ sessions and annualized:
 
 $$
 RV_{H,t}^{annualized}
@@ -78,7 +80,7 @@ RV_{H,t}^{annualized}
 }
 $$
 
-Future realized volatility begins at \(t+1\), ensuring that the target does not include the observation date itself.
+Future realized volatility begins at $t+1$, ensuring that the target does not include the observation date itself.
 
 ### Volatility Risk Premium
 
@@ -98,7 +100,7 @@ $$
 RV_{H,t} = \alpha + \beta VXN_t + \epsilon_t
 $$
 
-The analysis reports the regression coefficient, intercept, and \(R^2\) for each forecast horizon.
+The analysis reports the regression coefficient, intercept, and $R^2$ for each forecast horizon.
 
 ### VXN Regimes
 
@@ -108,7 +110,7 @@ VXN observations are divided into five percentile-based groups. Future realized 
 
 ### VXN vs Future 30D Realized Volatility
 
-Scatter plot showing the relationship between VXN and subsequent 30-day NQ realized volatility, including the fitted regression line and \(R^2\).
+Scatter plot showing the relationship between VXN and subsequent 30-day NQ realized volatility, including the fitted regression line and $R^2$.
 
 ![VXN vs Future 30D Realized Volatility](visualization/output/vxn_vs_future_rv_30d.png)
 
