@@ -1,4 +1,3 @@
-````markdown
 <div align="center">
 
 # VXN-Realized-Volatility
@@ -297,8 +296,3 @@ The current analysis is an initial research implementation rather than a product
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 The license applies to the code in this repository. External datasets remain subject to their respective source licenses and terms of use.
-
-```
-
-The key difference is that the `$$ ... $$` blocks are now preserved as literal GitHub Markdown rather than being rendered by this chat before you copy them.
-```
