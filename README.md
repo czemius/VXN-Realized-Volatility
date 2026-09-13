@@ -72,12 +72,7 @@ $$
 For a future horizon of $H$ trading days, realized volatility is calculated from the cumulative intraday variance over the following $H$ sessions and annualized:
 
 $$
-RV_{H,t}^{annualized}
-=
-\sqrt{
-\frac{252}{H}
-\sum_{j=1}^{H} RV^2_{t+j}
-}
+\text{RV}_{H,t}^{\text{annualized}} = \sqrt{ \frac{252}{H} \sum_{j=1}^{H} \text{RV}_{t+j}^2 }
 $$
 
 Future realized volatility begins at $t+1$, ensuring that the target does not include the observation date itself.
