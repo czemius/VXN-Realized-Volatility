@@ -11,7 +11,7 @@ Researching the relationship between VXN-implied volatility, subsequent NQ reali
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 ![Data](https://img.shields.io/badge/Data-2015--2025-orange)
 ![Research](https://img.shields.io/badge/Research-Quantitative-6f42c1)
-[![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 </div>
 
