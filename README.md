@@ -1,10 +1,11 @@
+````markdown
 <div align="center">
 
 # VXN-Realized-Volatility
 
 Researching the relationship between VXN-implied volatility, subsequent NQ realized volatility, and the volatility risk premium.
 
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python\&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 ![Data](https://img.shields.io/badge/Data-2015--2025-orange)
 ![Research](https://img.shields.io/badge/Research-Quantitative-6f42c1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -17,10 +18,10 @@ How well does VXN anticipate subsequent realized volatility in Nasdaq-100 future
 
 This project measures the relationship between VXN and future NQ realized volatility across 5-day, 10-day, 20-day, and 30-day horizons, with particular focus on:
 
-* The relationship between VXN and subsequent realized volatility
-* The calibration of VXN across different volatility regimes
-* The volatility risk premium between implied and realized volatility
-* The stability of the relationship across different forecast horizons
+- The relationship between VXN and subsequent realized volatility
+- The calibration of VXN across different volatility regimes
+- The volatility risk premium between implied and realized volatility
+- The stability of the relationship across different forecast horizons
 
 ## Key Findings
 
@@ -154,13 +155,13 @@ Source: https://huggingface.co/datasets/mdelcristo/NQ-F_1min_OHLCV_Parquet
 
 ### Data Processing
 
-* NQ timestamps are originally provided in UTC.
-* Timestamps are converted to `America/New_York`.
-* NQ observations are assigned to CME trading sessions.
-* Daily realized variance is calculated from 1-minute log returns.
-* VXN is attached to the daily research dataset.
-* The original datasets are not included in this repository.
-* NQ data currently extends through 2025-07-25.
+- NQ timestamps are originally provided in UTC.
+- Timestamps are converted to `America/New_York`.
+- NQ observations are assigned to CME trading sessions.
+- Daily realized variance is calculated from 1-minute log returns.
+- VXN is attached to the daily research dataset.
+- The original datasets are not included in this repository.
+- NQ data currently extends through 2025-07-25.
 
 ## Research Pipeline
 
@@ -191,7 +192,7 @@ NQ 1-Minute Data ──────┘
              └─────────┼─────────┘
                        ▼
                 Visualizations
-```
+````
 
 ## Project Structure
 
@@ -296,3 +297,8 @@ The current analysis is an initial research implementation rather than a product
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 The license applies to the code in this repository. External datasets remain subject to their respective source licenses and terms of use.
+
+```
+
+The key difference is that the `$$ ... $$` blocks are now preserved as literal GitHub Markdown rather than being rendered by this chat before you copy them.
+```
