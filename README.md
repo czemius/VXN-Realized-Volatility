@@ -1,7 +1,7 @@
 <div align="center">
 
 ```
-σ ᴠ ᴏ ʟ ᴀ ᴛ ɪ ʟ ɪ ᴛ ʏ
+ᴠ ᴏ ʟ ᴀ ᴛ ɪ ʟ ɪ ᴛ ʏ
 ```
 
 # VXN-Realized-Volatility
